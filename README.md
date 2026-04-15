@@ -48,18 +48,5 @@ The script expects a file named `customer_data.csv` in the working directory wit
 
 ---
 
-## Usage
-
-```bash
-python Code.py
-```
-
-All plots are displayed inline via `plt.show()`. No files are saved to disk by default.
-
----
-
-## Notes
-
-- Scaling is applied per-column using separate `StandardScaler` fits. For model training, fit the scaler on training data only to avoid data leakage.
-- `ChurnStatus` is included in the correlation matrix as a numeric target for reference.
-- The `IncomeRange` and `ChurnLabel` columns are derived during visualization and not part of the original dataset.
+## Detailed Report
+A complete analysis of the dataset, including visualizations and interpretation of results, is provided in `Report.pdf`. The report contains the full discussion of findings derived from the EDA pipeline.
